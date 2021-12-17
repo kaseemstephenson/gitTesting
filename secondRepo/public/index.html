@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+  width: 600px;
+  height:  600px;
+}
+.flex-containerTwo {
+  display: flex;
+  width: 100%;
+  height:  25%;
+}
+.flex-containerThree {
+  display: flex;
+  flex: 100%;
+  width: 600px;
+  height:  30%;
+  margin-top:-60px;
+}
+
+.flex-containerTwo > #numDisplay {
+  flex:20%;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 100%px;
+  height: 10%;
+  
+}
+.flex-containerThree > #numberKeysTwo {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 10%;
+  max-width: 500px;
+  margin: auto;
+  
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Calc - Kaseem Stephenson</h1>
+<div class="content">
+
+<div class="flex-container">
+  <div class="flex-containerTwo">
+  <div id="numDisplay"></div>
+</div>
+<div class="flex-containerThree">
+  <div id="numberKeysTwo">1</div>
+  <div id="numberKeysTwo">2</div>
+  <div id="numberKeysTwo">3</div> 
+
+</div>
+<div class="flex-containerThree">
+  <div id="numberKeysTwo">4</div>
+  <div id="numberKeysTwo">5</div>
+  <div id="numberKeysTwo">6</div> 
+  
+</div>
+<div class="flex-containerThree">
+  <div id="numberKeysTwo">9</div>
+  <div id="numberKeysTwo">8</div>
+  <div id="numberKeysTwo">0</div> 
+  
+</div>
+<div class="flex-containerThree">
+  <div id="numberKeysTwo">+</div>
+  <div id="numberKeysTwo">-</div>
+  <div id="numberKeysTwo">/</div> 
+  <div id="numberKeysTwo">*</div> 
+    <div id="numberKeysTwo">calc</div> 
+
+
+</div>
+
+
+
+  
+</div>
+</div>
+</body>
+</html>
